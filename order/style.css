@@ -1,172 +1,60 @@
-@import url("https://fonts.googleapis.com/css?family-Plus+Jakarta+Sans:500, 400|Inter;400");
-
-.rectangle-3 {
-    background-color: #fcfcfc;
-    height: 10px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1000px;
-}
-
-.about .frame {
-    align-items: center;
-    display: flex;
-}
-
-.frame-8 {
-    gap: 279px;
-    justify-content: center;
-    left: 27px;
-    position: absolute;
-    top: 64px;
-    width: fit-content;
-}
-
-.login {
-    color: var(--blue-whale);
-    font-family: var(--font-family-zodiak-bold);
-    font-size: var(--font-size-xl);
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-decoration: underline;
-    width: fit-content;
-}
-
-.logo {
-    color: black;
-    font-family: var(--font-family-zodiak-regular);
-    font-size: 30pt;
-    font-weight: 0px;
-    letter-spacing: 0;
-    line-height: 0px;
-    margin-left: 230px;
-    margin-top: -10px;
-    position: relative;
-    width: fit-content;
-}
-
-.span0 {
-    color: var(--blue-whale);
-}
-
-.span1 {
-    color: var(--pasific-blue);
-}
-
-.about {
-    align-items: flex-start;
-    background-color: var(--white);
-    border: 1px none;
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    overflow: hidden;
-    width: 1500px;
-}
-
-.hidden,
-.hidden * {
-    pointer-events: none;
-    visibility: hidden;
-}
-
-.navbar {
-    align-items: center;
-    align-self: center;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-color: #e4e4e4;
-    display: flex;
-    gap: 64px;
-    justify-content: center;
-    margin-left: 104px;
-    margin-top: 64px;
-    padding: 0px 0px 32px;
-    position: relative;
-    width: 1200px;
-}
-
-.about .navbar-link {
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-}
-
-.navbar-link-place-1 {
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -1px;
-    position: relative;
-    width: fit-content;
-}
-
-.about-us {
-    color: var(--blue-whale);
-    font-family: var(--font-family-zodiak-extrabold);
-    font-size: var(--font-size-xxxl);
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    min-height: 54px;
-    min-width: 237px;
-    text-align: center;
+.home h2{
     text-decoration: underline;
 }
 
-.welcome-to-laundry-ca {
-    align-self: stretch;
-    letter-spacing: 0;
-    line-height: 32px;
-    margin-top: -1px;
-    position: relative;
-    text-align: center;
-}
-.
-.span1-1 {
-    color: var(--storm-dust);
-    font-family: var(--font-family-plus_jakarta_sans);
-    font-size: var(--font-size-m);
-    font-weight: 400;
-}
-
-.baju {
-    align-self: stretch;
-    height: 532px;
-    margin-right: 500px;
-    margin-left: 150px;
-    min-width: 1200px;
-    position: relative;
-}
-
-.footer {
-    align-items: center; 
-    background-color: rgb(18, 37, 78);
-    display: flex; 
-    flex-shrink: 1;
-    height: auto;
-    gap: 50px; 
-    margin-top: 20px; 
-    margin-left: 100px;
-    mix-blend-mode: normal; 
-    padding: 40px; 
-    position: relative; 
-    width: 1200px;
-}
-
-.logo-tagline {
+.navigasi button{
     color: white;
-    align-items: flex-start;
+    background-color: #003049;
+}
+
+.banner{
+        background-image: url('../assets/homebg.png');
+        background-size: cover;
+        color: white;
+        text-align: center;   
+        height: fit-content;         
+}
+
+#featured-3 button{
+    background-color: #003049;
+}
+#featured-3 h4{
+    color: #003049;
+}
+
+.tahap{
     display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 24px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.thp {
+    flex-basis: 10%;
+    padding: 50px;
+    /* box-sizing: border-box; */
+}
+.thp p{
+    text-align: center;
+    font-weight: 50px;
+    
+}
+ .thp img {
+    width: 100px;
+ }
+   
+.pricing{
+    display: flex;
     justify-content: center;
-    position: relative;
-} 
+}
 
+.album{
+    background-color: #003049;
+}
 
+.footer{
+    background-color: #1f1f1f;
+    min-height: 200px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
